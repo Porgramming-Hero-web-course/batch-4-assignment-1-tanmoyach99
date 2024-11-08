@@ -1,4 +1,4 @@
-#type Guards#
+# Type Guards #
 
 Type guards in TypeScript are important. It allows a developer to check the type in runtime. So that a developer make his coe safer and it also allows a developer to narrowing types
 
@@ -9,7 +9,7 @@ Improved Code Safety: By using type guards, you prevent runtime errors that coul
 Enhanced Autocomplete and Intellisense: TypeScript narrows the type in code editors, providing better autocomplete suggestions based on the identified type.
 Types of Type Guards in TypeScript
 
-## typeof Type Guard##
+## Typeof Type Guard ##
 The typeof type guard is used to check for primitive types like string, number, boolean, and symbol. It’s one of the simplest type guards, using the typeof operator.
 
 #Example:
@@ -26,7 +26,7 @@ Use Case
 It is useful specially for the primitive types.
 
 
-##  instanceof Type Guard##
+##  instanceof Type Guard ##
 The instanceof type guard is used to check if an object is an instance of a particular class or constructor. It’s particularly useful for distinguishing between class instances.
 
 
@@ -117,7 +117,7 @@ this kind of type guards is used for interfaces which is complex and where type 
 ## Discriminated Unions ##
 
 
-
+```
 interface Circle {
     kind: "circle";
     radius: number;
@@ -139,6 +139,7 @@ function getArea(shape: Shape) {
             return shape.width * shape.height;
     }
 }
+```
 Use Case
 
 it is Ideal for similar object types whereas a property can specify the specific object types

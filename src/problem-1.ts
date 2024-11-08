@@ -1,15 +1,15 @@
 
 
 const sumArray=(arr:number[]):number=>{
-    const sumOfNum:number=arr.reduce((acc:number,current:number)=>acc+current,0);
+    const sum:number=arr.reduce((acc:number,current:number)=>acc+current,0);
 
-    return sumOfNum
+    return sum
 
 }
 
 
-const arrayOfNum:number[]=[100,100];
+// const arrayOfNum:number[]=[100,100];
 
-const sum:number=sumArray(arrayOfNum);
+// const sumNum:number=sumArray(arrayOfNum);
 
-console.log(sum);
+// console.log(sumNum);

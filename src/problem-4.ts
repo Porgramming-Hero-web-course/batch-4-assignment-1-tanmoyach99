@@ -28,8 +28,8 @@ const calculateShapeArea=(shape:shapeType):number=>{
 }
 
 
-console.log(calculateShapeArea({shape:"rectangle",length:10,width:20}))
-console.log(calculateShapeArea({shape:"circle",radius:20}))
+// console.log(calculateShapeArea({shape:"rectangle",length:10,width:20}))
+// console.log(calculateShapeArea({shape:"circle",radius:20}))
 
 
 

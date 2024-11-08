@@ -8,4 +8,4 @@ const p={
     age:40
 }
 
-console.log(getProperty(p,"name"))
+// console.log(getProperty(p,"name"))

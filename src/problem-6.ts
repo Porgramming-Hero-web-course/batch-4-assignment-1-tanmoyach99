@@ -26,4 +26,4 @@ const updateProfile=(profile:Profile,obj:Partial<Profile>):Profile=>{
 // console.log(updateProfile(p1,{name:"abdul kuddus boyati"}));
 // console.log(updateProfile(p1,{age:32}));
 
-// console.log(p1);
+
